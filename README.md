@@ -1,4 +1,6 @@
-# React 18: Concurrency with useTransition() & useDeferredValue()
+# React 18: Concurrency 
+
+#### useTransition() & useDeferredValue()
 
 Forked from [this video by Academind](https://www.youtube.com/watch?v=lDukIAymutM).
 
