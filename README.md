@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# React 18: Concurrency with useTransition() & useDeferredValue()
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Forked from [this video by Academind](https://www.youtube.com/watch?v=lDukIAymutM).
+
+---
+
+## Summary:
+
+### useTransition()
+
+- Purpose: Used for prioritisation of content when connection problem exists, allowing preferred content to be loaded before the other.
+- Use Case: Rendering 'Loading...' or 'Loading Gifs images' while loading content
+
+
+### useDeferredValue()
+
+- Purpose: Used for deprioritisation of content when connection problem exists, allowing some delay for certain content after change of state.
+- Use Case: To delay rendering of certain content after change of a state.
+
+
+---
 
 ## Available Scripts
 
